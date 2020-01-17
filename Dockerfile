@@ -1,6 +1,6 @@
 FROM node:12-alpine
 
-RUN apk add --no-cache bash git
+RUN apk --no-cache add bash git
 
 COPY entrypoint.sh /entrypoint.sh
 COPY index.js /index.js
