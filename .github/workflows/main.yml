@@ -15,3 +15,6 @@ jobs:
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
     - run: ls -lart
+    - run: pwd
+    - run: npm install -g vue-i18n-locale-message
+    - run: vue-i18n-locale-message
